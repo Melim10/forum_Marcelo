@@ -14,7 +14,7 @@ use Stringable;
  *
  * @package App\Domain\UserManagement\User
  */
-class UserId implements Stringable, Comparable, JsonSerializable
+class UserId extends \App\Domain\Questions\Question implements Stringable, Comparable, JsonSerializable
 {
 
     private UuidInterface $uuid;
